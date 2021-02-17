@@ -1,0 +1,13 @@
+*{
+
+}
+button {
+    color:red;
+    background-color: black;
+}
+.heading {
+    text-transform: uppercase;
+text-align: center;
+}
+h3, p, button{font-family: 'Reggae One', cursive;
+}
