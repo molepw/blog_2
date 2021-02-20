@@ -1,13 +1,51 @@
 *{
-
+   
 }
-button {
-    color:red;
+.wrapper{
+    margin-top: 20px;
+    margin-right: 10em;
+    margin-left: 5em;
+    width: 50%;
+    margin-bottom: 20em;
+}
+button{
+    color: white;
     background-color: black;
+    padding: 10px 7px;
+    cursor: pointer;
+    border: 2px solid grey;
+    margin-top: 4em;
+    font-size: 16px;
+    border-radius: 15px 5px 2px 5px;
 }
-.heading {
+button:hover{
+    color:rgb(255, 51, 0); 
+    background-color: white;
+}
+.heading{
     text-transform: uppercase;
-text-align: center;
+    text-align: center;
+    font-size: 3em;
 }
-h3, p, button{font-family: 'Reggae One', cursive;
+p{
+    font-size: 17px;
+}
+h3, p, button{
+    font-family: 'Rubik', sans-serif;
+}
+.flex_wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+.card button{
+    align-self:flex-end;
 }
