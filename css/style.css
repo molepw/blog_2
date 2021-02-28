@@ -3,7 +3,10 @@
 }
 .wrapper{
     width: 50%;
+    max-width: 1000px;
     margin: auto;
+    border: 5px solid rgb(4, 100, 243);
+    margin-top:10px;
 }
 button{
     color: rgb(255, 255, 255);
@@ -11,8 +14,8 @@ button{
     padding: 10px 7px;
     cursor: pointer;
     border: 2px solid rgb(0, 0, 0);
-    margin-top: 4em;
-    font-size: 16px;
+    margin-top: 1em;
+    font-size: 13px;
     border-radius: 15px 5px 2px 5px;
 }
 button:hover{
@@ -22,10 +25,10 @@ button:hover{
 .heading{
     text-transform: uppercase;
     text-align: center;
-    font-size: 2em;
+    font-size: 20px;
 }
 p{
-    font-size: 19px;
+    font-size: 15px;
     text-align: justify;
     text-indent: 30px;
 }
@@ -38,7 +41,7 @@ h3{
 h1, h2 {
     font-family: 'Underdog', cursive;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color:rgb(4, 100, 243);
 }
 .flex_wrapper{
@@ -63,6 +66,5 @@ h1, h2 {
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 5px solid rgb(4, 100, 243);
     padding: 20px;
   }
