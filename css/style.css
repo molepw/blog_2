@@ -2,11 +2,8 @@
    
 }
 .wrapper{
-    margin-top: 20px;
-    margin-right: 10em;
-    margin-left: 5em;
     width: 50%;
-    margin-bottom: 20em;
+    margin: auto;
 }
 button{
     color: rgb(255, 255, 255);
@@ -25,13 +22,24 @@ button:hover{
 .heading{
     text-transform: uppercase;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
 }
 p{
-    font-size: 17px;
+    font-size: 19px;
+    text-align: justify;
+    text-indent: 30px;
 }
-h3, p, button{
+p, button{
     font-family: 'Rubik', sans-serif;
+}
+h3{
+    font-family: 'Underdog', cursive;
+}
+h1, h2 {
+    font-family: 'Underdog', cursive;
+    text-align: center;
+    font-size: 40px;
+    color:rgb(4, 100, 243);
 }
 .flex_wrapper{
     width: 80%;
@@ -49,3 +57,12 @@ h3, p, button{
 .card button{
     align-self:flex-end;
 }
+.flex-container {
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 5px solid rgb(4, 100, 243);
+    padding: 20px;
+  }
