@@ -1,6 +1,33 @@
 *{
    
 }
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(https://cdn1.ozone.ru/s3/cms/96/tdb/8mar_logo_new.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 50px;
+    width: 100px;
+    margin-left: 2em;
+}
+
+nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 .wrapper{
     width: 50%;
     max-width: 1000px;
@@ -8,7 +35,7 @@
     border: 5px solid rgb(4, 100, 243);
     margin-top:10px;
 }
-button{
+.wrapper button{
     color: rgb(255, 255, 255);
     background-color: rgb(4, 100, 243);
     padding: 10px 7px;
@@ -18,7 +45,7 @@ button{
     font-size: 13px;
     border-radius: 15px 5px 2px 5px;
 }
-button:hover{
+.wrapper button:hover{
     color:rgb(255, 0, 0); 
     background-color: white;
 }
